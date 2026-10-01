@@ -7,6 +7,20 @@ export default function Home() {
       technologies: ["Python", "PyTorch", "OpenCV", "Streamlit", "ONNX"],
       github: "https://github.com/st5cey/SickleAide",
     },
+    {
+    title: "Calorie Expenditure Prediction API",
+    description:
+      "A production-ready machine learning pipeline and FastAPI microservice that predicts workout calorie burn with 1.23 MAE using domain-driven feature engineering and leakage-free XGBoost models.",
+    technologies: [
+      "Python",
+      "XGBoost",
+      "Scikit-Learn",
+      "FastAPI",
+      "Pydantic",
+      "Pandas"
+    ],
+    github: "https://github.com/st5cey/calorie-prediction-api",
+    },
   ];
 
   const skills = [
